@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css" media="all" charset="utf-8"/>
     <link rel="stylesheet" href="stylesheets/responsive.css" type="text/css" media="all" charset="utf-8"/>
     <link rel="stylesheet" href="stylesheets/main.css" type="text/css" media="all" charset="utf-8"/>
+    <link rel="stylesheet" href="stylesheets/form2.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script src="javascripts/wufoo.js" type="text/javascript" charset="utf-8"></script>
     
 
     <!-- Fav and touch icons -->
@@ -75,36 +77,29 @@
 					</div>
 					<div class="row">
 						<div class="span6">
-							<form action="#" method="post" accept-charset="utf-8" class="private form">
-								<input type="text" placeholder="Full Name" class="txt input-block-level" />
-								<input type="text" placeholder="Phone" class="txt input-block-level" />
-								<input type="text" placeholder="Email" class="txt input-block-level" />
-								<input type="text" placeholder="Party Date" class="txt input-block-level" />
-								<select class="span3 pull-left">
-									<option value="0">Party time</option>
-									<option value="1">Option one</option>
-									<option value="2">Option two</option>
-								</select>
-								<select class="span3 pull-right">
-									<option value="0"># of Guests</option>
-									<option value="1">Option one</option>
-									<option value="2">Option two</option>
-								</select>
-								<select class="input-block-level">
-									<option value="0">Party Type</option>
-									<option value="1">Option one</option>
-									<option value="2">Option two</option>
-								</select>
-								<select class="input-block-level">
-									<option value="0">Occasion</option>
-									<option value="1">Option one</option>
-									<option value="2">Option two</option>
-								</select>
-								<textarea rows="3" cols="40" class="input-block-level" placeholder="Additional Info"></textarea>
-								<button type="submit" class="btn btn-theme pull-right span2">Submit</button>
-							</form>
-						</div>
-						<div class="span6">
+							<a href="http://wufoo.com" title="Powered by Wufoo">Wufoo</a>
+							</h1>
+
+							<div id="wufoo-m7x3z9">
+							Fill out my <a href="http://shockt88.wufoo.com/forms/m7x3z9">online form</a>.
+							</div>
+							<script type="text/javascript">var m7x3z9;(function(d, t) {
+							var s = d.createElement(t), options = {
+							'userName':'shockt88', 
+							'formHash':'m7x3z9', 
+							'autoResize':true,
+							'height':'845',
+							'async':true,
+							'header':'show'};
+							s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+							s.onload = s.onreadystatechange = function() {
+							var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+							try { m7x3z9 = new WufooForm();m7x3z9.initialize(options);m7x3z9.display(); } catch (e) {}};
+							var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+							})(document, 'script');</script>
+							
+						
+						<div class="span3">
 							<img src="images/image-parties.png" alt="" width="400" height="540" class="full-width" />
 						</div>
 					</div>
