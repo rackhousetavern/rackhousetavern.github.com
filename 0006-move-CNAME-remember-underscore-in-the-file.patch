@@ -1,0 +1,20 @@
+From 330ea169efa855a9e661373217926c542a98e160 Mon Sep 17 00:00:00 2001
+From: Thomas Holland <shockt88@gmail.com>
+Date: Sun, 17 Mar 2013 13:48:53 -0500
+Subject: [PATCH 6/7] move CNAME - remember underscore in the file
+
+---
+ CNAME | 1 -
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 CNAME
+
+diff --git a/CNAME b/CNAME
+deleted file mode 100644
+index a1436f8..0000000
+--- a/CNAME
++++ /dev/null
+@@ -1 +0,0 @@
+-_rackhousetavern.com
+-- 
+1.8.1.4
+

@@ -1,0 +1,20 @@
+From b381979fe8360a0b9b5f1b890058e77fc6f34b12 Mon Sep 17 00:00:00 2001
+From: Thomas Holland <shockt88@gmail.com>
+Date: Sun, 17 Mar 2013 12:33:53 -0500
+Subject: [PATCH 2/7] adding CNAME file
+
+---
+ CNAME | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 CNAME
+
+diff --git a/CNAME b/CNAME
+new file mode 100644
+index 0000000..268f35f
+--- /dev/null
++++ b/CNAME
+@@ -0,0 +1 @@
++rackhousetavern.com
+-- 
+1.8.1.4
+
